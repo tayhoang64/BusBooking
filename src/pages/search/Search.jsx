@@ -51,7 +51,7 @@ const Search = () => {
                     </div>
                     <div className="">
                         <label htmlFor="seat" className="block mb-2 font-medium">
-                            Choose seat
+                            Total seat
                         </label>
                         <input
                             type="number"
