@@ -27,10 +27,10 @@ const Destination = () => {
                                 id="from"
                                 className="w-full appearence-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 inline-block bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-11 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900">
                                 <option value="">Select Vacation</option>
-                                <option value="location1">Ho Chi Minh</option>
-                                <option value="location2">Ha Noi</option>
-                                <option value="location3">Da Nang</option>
-                                <option value="location4">Hai Phong</option>
+                                <option value="Ho Chi Minh">Ho Chi Minh</option>
+                                <option value="Ha Noi">Ha Noi</option>
+                                <option value="Da Nang">Da Nang</option>
+                                <option value="Hai Phong">Hai Phong</option>
                             </select>
                         </div>
                         <div className="">
@@ -44,10 +44,10 @@ const Destination = () => {
                                 id="to"
                                 className="w-full appearence-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 inline-block bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-11 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900">
                                 <option value="">Select Vacation</option>
-                                <option value="location5">Ho Chi Minh</option>
-                                <option value="location6">Ha Noi</option>
-                                <option value="location7">Da Nang</option>
-                                <option value="location8">Hai Phong</option>
+                                <option value="Ho Chi Minh">Ho Chi Minh</option>
+                                <option value="Ha Noi">Ha Noi</option>
+                                <option value="Da Nang">Da Nang</option>
+                                <option value="Hai Phong">Hai Phong</option>
                             </select>
                         </div>  </div>) : (
                     <div className='space-y-5'>

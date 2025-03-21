@@ -5,6 +5,7 @@ import { FaStar } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import Destination from '../../components/destination/Destination'
 import DepartTime from '../../components/departtime/DepartTime'
+import Seat from '../../components/seat/Seat'
 const Detail = () => {
   return (
     <div className='w-full  lg:px-28 md:px-16 sm:px-7 px-4 mt-[13ch] mb-[10ch]'>
@@ -40,9 +41,11 @@ const Detail = () => {
                 <div className="space-y-6">
                     <Destination/>
                     <DepartTime/>
+                    
+                <Seat />
                 </div>
                 <div className="flex">
-                    <Link to='bus/bus-details/checkout' className='w-fit bg-violet-600 text-neutral-50 font-medium text-base px-6 py-2 rounded-md hover:bg-violet-700 ease-in-out duration-300'>
+                    <Link to='/bus/bus-details/checkout' className='w-fit bg-violet-600 text-neutral-50 font-medium text-base px-6 py-2 rounded-md hover:bg-violet-700 ease-in-out duration-300'>
                         Prosessed to checkout
                     </Link>
                 </div>
