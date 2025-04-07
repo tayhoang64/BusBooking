@@ -15,6 +15,7 @@ const Navbar = () => {
         { href: "/about", label: "About" },
         { href: "/bus", label: "Bus" },
         { href: "/services", label: "Services" },
+
     ]
 
     const handleClick = () => {
@@ -70,6 +71,10 @@ const Navbar = () => {
                             <p className="text-xs font-normal text-neutral-50 tracking-wide">+91 1234567890</p>
                         </div>
                     </div>
+                    {/* Button */}
+                    <Link to='/login' className='w-fit bg-violet-600 text-neutral-50 font-medium text-base px-6 py-2 rounded-md hover:bg-violet-700 ease-in-out duration-300'>
+                        <button >Login/Register</button>
+                    </Link>
                     {/* Theme */}
                     <Theme />
                 </div>
